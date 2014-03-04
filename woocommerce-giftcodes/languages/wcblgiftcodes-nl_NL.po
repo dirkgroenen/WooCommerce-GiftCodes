@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wcblgiftcodes\n"
+"POT-Creation-Date: 2013-07-09 19:17+0100\n"
+"PO-Revision-Date: 2013-07-09 19:20+0100\n"
+"Last-Translator: Bitlabs <info@bitlabs.nl>\n"
+"Language-Team: Bitlabs <info@bitlabs.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: woocommerce-giftcodes.php:64 woocommerce-giftcodes.php:65
+msgid "Giftcard codes"
+msgstr "Giftcard codes"
+
+#: woocommerce-giftcodes.php:67
+msgid "Add New Code"
+msgstr "Code toevoegen"
+
+#: woocommerce-giftcodes.php:68
+msgid "Edit Code"
+msgstr "Code aanpassen"
+
+#: woocommerce-giftcodes.php:69
+msgid "New Code"
+msgstr "Nieuwe code"
+
+#: woocommerce-giftcodes.php:70
+msgid "View Code"
+msgstr "Bekijk code"
+
+#: woocommerce-giftcodes.php:71
+msgid "Search Codes"
+msgstr "Zoek code"
+
+#: woocommerce-giftcodes.php:72
+msgid "No codes found"
+msgstr "geen codes gevonden"
+
+#: woocommerce-giftcodes.php:73
+msgid "No codes found in the Trash"
+msgstr "Geen codes gevonden in de prullenbak"
+
+#: woocommerce-giftcodes.php:203
+msgid "We have just added the Spotify codes to your order:"
+msgstr "We hebben zojuist de Spotify codes toegevoegd aan uw bestelling:"
+
+#: woocommerce-giftcodes.php:233
+msgid "Your Spotify codes are:"
+msgstr "Uw Spotify codes zijn:"
+
+#: woocommerce-giftcodes.php:244
+msgid "Product:"
+msgstr "Product:"
+
+#: woocommerce-giftcodes.php:248
+msgid "Code:"
+msgstr "Code:"
+
+#: includes/wcgiftcodes-settings.php:21 includes/wcgiftcodes-settings.php:22
+msgid "Giftcodes"
+msgstr "Giftcodes:"
+
+#: includes/post-type/wc-giftcodes.php:42
+msgid "Giftcard code"
+msgstr "Giftcard code:"
+
+#: includes/post-type/wc-giftcodes.php:43
+msgid "Product"
+msgstr "Product"
+
+#: includes/post-type/wc-giftcodes.php:44
+#: includes/post-type/wc-giftcodes.php:64
+msgid "Sold"
+msgstr "Verkocht"
+
+#: includes/post-type/wc-giftcodes.php:45
+msgid "Sold to order"
+msgstr "Verkocht aan bestelling"
+
+#: includes/post-type/wc-giftcodes.php:64
+msgid "Not sold"
+msgstr "Niet verkocht"
+
+#: includes/post-type/wc-giftcodes.php:91
+msgid "Enter giftcard code"
+msgstr "Vul giftcard code in"
