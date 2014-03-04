@@ -5,7 +5,7 @@
 	Version: 1.0 
 	Author: Bitlabs
 	Author URI: https://www.bitlabs.nl
-	Description: Create a database with giftcodes (from for example Spotify or iTunes) and distribute them on a purchese of a specific article.
+	Description: Create a database with giftcodes (for example Spotify or iTunes Giftcard Codes) and distribute them on a purchese of a specific article.
 	*/  
 	
 	/**
@@ -228,7 +228,7 @@
 						}
 						
 						// Add note to order that will show the codes for the products
-						$notebody = "<p>".__("We have just added the Spotify codes to your order:", 'wcblgiftcodes')."</p>";
+						$notebody = "<p>".__("We have just added the codes to your order:", 'wcblgiftcodes')."</p>";
 						foreach($giftcodes as $name => $code){
 							$notebody .= $name.": <b>".$code."</b><br/>";
 						}
@@ -258,7 +258,7 @@
 						
 						if(count($giftcodes) > 0){
 							?>
-							<p><?php _e( 'Your Spotify codes are:', 'wcblgiftcodes' ); ?></p>
+							<p><?php _e( 'Your codes are:', 'wcblgiftcodes' ); ?></p>
 							<?php
 						
 							$x = 0;
@@ -274,7 +274,7 @@
 											</li>
 											<li class="code">
 												<?php _e( 'Code:', 'wcblgiftcodes' ); ?>
-												<strong><a href='https://www.spotify.com/nl/redeem/?code=<?php echo $giftcodes[$x]; ?>' target='_BLANK' title='Direct verzilveren'><?php echo $giftcodes[$x]; ?></a></strong>
+												<?php echo $giftcodes[$x]; ?>
 											</li>
 										</ul>
 										<div class="clear"></div>
